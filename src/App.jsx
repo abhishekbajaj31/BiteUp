@@ -1,8 +1,8 @@
 /*eslint-disable no-unused-vars */
 import { React } from "react"
 import { Route,BrowserRouter,Routes } from "react-router-dom"
-import Home from "./Pages/Home"
-import Success from "./Pages/Success"
+import Home from "./pages/Home"
+import Success from "./pages/Success"
 import { Error } from "./pages/Error"
 import ProtectedRoute from "./components/ProtectedRoute"
 const App = () => {
